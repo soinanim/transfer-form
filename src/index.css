@@ -27,6 +27,7 @@ body {
   color: var(--text-color);
 }
 
+button,
 label,
 input,
 select,

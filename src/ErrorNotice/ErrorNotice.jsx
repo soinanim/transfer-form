@@ -4,7 +4,7 @@ import styles from './Error.module.scss';
 const ErrorNotice = ({ error }) => {
   return (
     <div className={styles.error}>
-      <p>{`Error: ${error}. PLease try again`}</p>
+      <p>{`Error: ${error}. Please try again`}</p>
     </div>
   );
 };

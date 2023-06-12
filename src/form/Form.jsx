@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 
 import ErrorNotice from '../ErrorNotice';
 import Select from '../Select';
-import Notice from '../notice';
+import Notice from '../Notice';
 
 import { getUsers, getCurrencies, makeTransaction } from '../api/api';
 import styles from './Form.module.scss';
@@ -180,7 +180,9 @@ const Form = () => {
 
           {errors?.to && <p className={styles.error}>{errors?.to?.message}</p>}
 
-          <input type='submit' className={styles.button} />
+          <button type='submit' className={styles.button}>
+            Submit
+          </button>
         </form>
       </div>
     </>
