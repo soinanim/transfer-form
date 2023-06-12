@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/transfer-form/static/css/main.216f0fdb.css",
+    "main.js": "/transfer-form/static/js/main.fafe7dd9.js",
+    "index.html": "/transfer-form/index.html",
+    "main.216f0fdb.css.map": "/transfer-form/static/css/main.216f0fdb.css.map",
+    "main.fafe7dd9.js.map": "/transfer-form/static/js/main.fafe7dd9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.216f0fdb.css",
+    "static/js/main.fafe7dd9.js"
+  ]
+}
