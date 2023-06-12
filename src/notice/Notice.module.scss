@@ -1,0 +1,11 @@
+div.notice {
+  text-align: center;
+  padding: 10px 15px;
+  height: 40px;
+  background-color: var(--success-color);
+  color: var(--text-color);
+
+  p {
+    font-size: 17px;
+  }
+}

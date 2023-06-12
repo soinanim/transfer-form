@@ -1,0 +1,11 @@
+div.error {
+  text-align: center;
+  padding: 10px 15px;
+  height: 40px;
+  background-color: var(--error-color);
+  color: var(--text-color);
+
+  p {
+    font-size: 17px;
+  }
+}

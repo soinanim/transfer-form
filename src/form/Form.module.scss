@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+
+  .form {
+    display: flex;
+    flex-direction: column;
+
+    input,
+    select {
+      border-radius: 12px;
+      color: var(--light-color);
+      border: 1px solid var(--medium-color);
+      background-color: var(--dark-color);
+      padding: 1.05882rem 0.94118rem;
+      width: 100%;
+      font-size: 17px;
+      line-height: 1.23536;
+      font-weight: 400;
+      margin-bottom: 20px;
+
+      &:disabled {
+        opacity: 0.5;
+      }
+    }
+
+    select:focus,
+    input:focus {
+      border-color: var(--primary-color);
+    }
+
+    p.error {
+      margin-bottom: 20px;
+      color: var(--error-color);
+
+      &::before {
+        display: inline;
+        content: '⚠ ';
+      }
+    }
+
+    .button {
+      background-color: var(--primary-color);
+      border: none;
+
+      &:not(:disabled):hover {
+        background-color: var(--secondary-color);
+      }
+
+      &:disabled {
+        opacity: 0.6;
+      }
+    }
+  }
+}

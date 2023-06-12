@@ -1,0 +1,35 @@
+:root {
+  --bg-color: hsl(240, 3%, 12%);
+  --dark-color: hsl(240, 3%, 18%);
+  --medium-color: hsl(240, 3%, 26%);
+  --light-color: hsl(240, 11%, 96%);
+  --text-color: hsl(0, 0%, 100%);
+
+  --primary-color: hsl(226, 64%, 56%);
+  --secondary-color: hsl(226, 64%, 36%);
+  --error-color: hsl(354, 100%, 42%);
+  --success-color: hsl(120, 53%, 55%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+label,
+input,
+select,
+select option {
+  cursor: pointer;
+}
